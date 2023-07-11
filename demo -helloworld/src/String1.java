@@ -21,5 +21,12 @@ public class String1 {
       boolean b5 = str2.equals (str1 + "c"); // false
       System.out.println(b5); //
 
+      //chatAt(2), find the char at index 2 of the string
+      String str4 = "helloworld";
+      // index 0 of str4 -> 'h'
+      // index 4 of str4 -> 'o'
+      System.out.println(str4.charAt(2); result; 
+      System.out.println(str4.charAt(28));
+      
 }
 }

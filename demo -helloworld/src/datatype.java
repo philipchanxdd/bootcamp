@@ -36,7 +36,7 @@ public class datatype {
 System.out.println(f+f2+b+b3);
         short s = 23;
         short s2 = -68;
-
+System.out.println(s+s2);
         long l = 400;
         long l2 = 1000;
         long l3 = 30L; //

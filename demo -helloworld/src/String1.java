@@ -1,0 +1,25 @@
+public class String1 {
+    public static void main(String[] args) {
+      String str = "I am intelligent but lazy";
+      str = str + ",";
+      System.out.println(str); // I am intelligent, but lazy.
+
+      // Method
+      int i =str.length();
+      System.out.println("i" + i); // convert i to String "24 -> "i=24"
+      
+      System.out.println("hello".length()); // 5
+
+      // equals()
+      String str1 = "abc";
+      String str2 = "abcd";
+      String str3 = "abc";
+      boolean areTheyEqual = str1.equals(str2); // false
+      boolean areTheyEqual2 = str1.equals(str3); // true
+      boolean b4 = str2.equals (str1 + "d"); // false
+      System.out.println(b4); // true
+      boolean b5 = str2.equals (str1 + "c"); // false
+      System.out.println(b5); //
+
+}
+}

@@ -78,7 +78,7 @@ if (str.equals("Monday") || str.charAt(4) == 'd' || str.length() > 18) {
     // Simple version
     int dayOfWeek = 3;
     String dayName = "";
-    switch (dayOfWeek) { //event
+    switch (dayOfWeek) { //check if the value equals to the following case
         case 1:
         dayName = "Monday";
         break; //exit
@@ -101,6 +101,24 @@ if (str.equals("Monday") || str.charAt(4) == 'd' || str.length() > 18) {
         break; //exit
 
         System.out.println("dayName=" + dayName)
+    }
+
+    char grade2 = 'B';
+    int pocketMoney = 0;
+    switch (grade2) {
+        case 'A':
+          pocketMoney += 100;
+          break;
+        case 'B':
+          pocketMoney += 70;
+          break;
+        case "C":
+          pocketMoney += 20;
+          break;
+        default:
+        pocketMoney += 5;
+    }
+    System.out.println("pocket money"); //170
     }
 }
 

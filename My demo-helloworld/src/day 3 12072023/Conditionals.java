@@ -16,7 +16,7 @@ public class Conditionals {
        if (i >12) {
         System.out.println("i > 12");
         } else if (i <= 12 && i >= 0){
-            System.out.println("i <= 12 and i >= 0") // executed
+            System.out.println("i <= 12 and i >= 0"); // executed
         }else{
         System.out.println("i is negative"); // not executed
         }
@@ -36,14 +36,14 @@ if (number % 2 == 0){ // checkingif number is an even number
     System.out.println("number is an even number");
 }
     //String
-    String str = ("Monday") 
-    if (str..equals.("Monday")) {
+    String str = ("Monday"); 
+    if (str.equals("Monday")) {
         System.out.println("str = Monday");
             }
             if (str.charAt(4) == 'd') { //false
         System.out.println("yes");    
             }
-    if str.length() > 10 
+    if str.length() > 10; 
       System.out.println("lenght > 10");
     }
 if (str.equals("Monday") || str.charAt(4) == 'd' || str.length() > 18) {
@@ -122,4 +122,3 @@ if (str.equals("Monday") || str.charAt(4) == 'd' || str.length() > 18) {
     }
 }
 
-}

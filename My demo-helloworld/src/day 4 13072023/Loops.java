@@ -6,9 +6,9 @@ public class Loops {
     a++;
 
     for (int i = 0; i < 4 ;++i) {
-      System.out.println("i=" + i + ", Hello");
+      System.out.println("i= " + i + ", Hello");
       //Logic flow:
-      //i = 0 -> o < 4, print 1st Hello
+      //i=0 -> i = 0 < 4, print 1st Hello
       //++i -> i = 1 < 4, print 2nd Hello
       //++i -> i = 2 < 4, print 3rd Hello
       //++i -> i = 3 < 4, print 4th Hello
@@ -80,7 +80,7 @@ public class Loops {
     //break;
 
     // continue
-    for (int i = 0; i < 6, i++) {
+    for (int i = 0; i < 6; i++) {
       System.out.println("Hello");
       if (i >3) {
         continue; // go to the next iteration (next loop)
@@ -96,8 +96,9 @@ public class Loops {
       // i = 6, exit
       
       for (int i = 0; i < 8; i++) {
-        if (i % 2 == 0 && i % 3 == 0)
-        System.out.println("i=" + i);
+        if (i % 2 == 0 && i % 3 == 0)//if conditon in for loop
+        // if i is divisible by 2 && i is divisible by 3
+        System.out.println("i= " + i);
         
         }
       }

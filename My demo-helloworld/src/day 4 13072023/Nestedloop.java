@@ -2,8 +2,9 @@ public class Nestedloop {
 
 
   public static void main(String[] args) {
+     //Approach 1: Nested Loop
+     //System.out.println() & System.out.print()
     for (int i = 0; i < 4; i++) {
-      //
       for (int j = 0; j < 3; j++) {
         System.out.println("Hello");
       }

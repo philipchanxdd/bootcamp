@@ -15,7 +15,7 @@ public class datatype {
         System.out.println(num);
 
         // Text
-        String str = "hello     ";
+        String str = "hello man";
         System.out.println(str);
 
         // String str2 = 1; // error
@@ -33,10 +33,10 @@ public class datatype {
         // byte b2 = 128; //error, out of range
         byte b3 = -128;
         // byte b4 = -128; // error
-System.out.println(f+f2+b+b3);
+System.out.println("f + b = " + f+f2+b+b3);
         short s = 23;
         short s2 = -68;
-System.out.println(s+s2);
+System.out.println("s = " + s+s2);
         long l = 400;
         long l2 = 1000;
         long l3 = 30L; //
@@ -46,10 +46,9 @@ System.out.println(s+s2);
         float f3 = 1.00000000000000003f; // norm -> f, but not F
         double d4 = 23.9;
 
-        // char
+        // char, involves single character
         char gender = 'M';
-        char s10 = ' ';
-        // char empty = ''; // error
+        char s10 = ' '; // char empty = ''; // error
 
         // boolean
         boolean isMale = true;
@@ -79,8 +78,12 @@ System.out.println(s+s2);
 
         int a10 = 10000;
         System.out.println(o); // 1
-        System.out.println(a10); // 1000
+        System.out.println(a10); // 10000
 
         String str7 = "" + 13 + 13; // 13 -> String "13", result: 1313 
+
+        //testing
+        //int num = 5
+        
     }
 }

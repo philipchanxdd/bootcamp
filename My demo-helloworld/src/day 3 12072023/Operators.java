@@ -1,11 +1,11 @@
 public class Operators {
     public static void main(String[] args) {
         int a = 1;
-        a = a + 1; // 2
-        a = a - 2; // 0
+        a = a + 1; // 1+1= 2
+        a = a - 2; // 2-2= 0
         int b = 8 / 4; // 2
         b = b * 3 + 5; // 11
-        System.out.println("a append b= " + a + b);// ?)
+        System.out.println("a append b= " + a + "+" + b);// ?)
 
         int x = 1;
         x = x + 1;
@@ -57,7 +57,7 @@ public class Operators {
         System.out.println("preIncrement=" + preIncrement5); // 3
         int postIncrement6 = p--; // assignment first, -1 later
         System.out.println("postIncrement=" + postIncrement6); // 3
-        System.out.println("p-" + p); // 2
+        System.out.println("p= " + p); // 2
 
         //String +=
         String str = "hello";

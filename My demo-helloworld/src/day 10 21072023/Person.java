@@ -4,8 +4,9 @@ public class Person {  // Person is like a template
   //yellow=class,red=name,blue=method
   //person has age,gender,personality (Describe the person by attributes)
   //
-  int age;  //not in memory 
-  char gender; //not in memory
+  //usually finalized version is public
+  private int age;  //not in memory 
+  private char gender; //not in memory
   //people have many attributes like weight and height
   //main is a tool for JVM to develop
   //main does not belong to Person, it can exist in other contexts

@@ -36,8 +36,8 @@ public class Array {
 
        //Approach 2, create Array
        int[] array = new int [] {3,9,12};
-       for (int i = 0; i < array.length; ++i){
-        System.out.println("array[" + i + "]=" + array[i]);
+       for (int j = 0; j < array.length; ++j){
+        System.out.println("array[" + j + "]=" + array[j]);
 
        }
        //Modify an element
@@ -61,7 +61,7 @@ public class Array {
 
     }
     boolean[] arr2 = new boolean[2];
-    arr[0] = true;
+    arr2[0] = true;
     for (int i = 0; i < arr2.length; ++i){
       System.out.println("arr2[" + i + "]=" + arr2[i]);
        }

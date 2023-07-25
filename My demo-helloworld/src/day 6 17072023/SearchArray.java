@@ -9,7 +9,7 @@ public class SearchArray {
     // target--> employ if
     for (int i = 0; i < chars.length; ++i) {
       if (chars[i] == 'm') {
-        System.out.println("index=" + i);
+        System.out.println("index= " + i);
       }
     }
     // toCharArray() // inborn String method //Char x Array usual partner
@@ -27,6 +27,7 @@ public class SearchArray {
       // i=0, nums[0]-> 240
       if (nums[i] > max) {
         max = nums[i];
+        System.out.println("The max value is " + max);
       }
     } //result: max = 800
 

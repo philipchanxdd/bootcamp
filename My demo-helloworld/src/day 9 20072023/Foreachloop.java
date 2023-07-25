@@ -1,5 +1,4 @@
-import java.util.Foreach;
-public class Foreach {
+public class Foreachloop {
   public static void main(String[] args) {
     //Basic
     for(int i = 0; i < 3; i++){

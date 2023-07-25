@@ -6,7 +6,7 @@ public class revision2 {
     System.out.println("The fourth one is " + fourth);
 
      int add = third + fourth;
-     System.out.println("The third plus fouth equals " + add);
+    System.out.println("The third plus fouth equals " + add);
 
      int o = 10 % 3;
      System.out.println(o);

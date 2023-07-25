@@ -6,12 +6,12 @@ public class Computer {
 
     //Constructors
     public Computer(){// (1)No return type, (2)Constructor name = Class name
-    
+     }
       public Computer(String color){//(1) no return type, (2)Constructor name=
         this.color = color;
       }
 
-    }
+   
   public void setRam(int ram){
 
   }
